@@ -19,7 +19,7 @@ function Home() {
 
       <div class="carousel-inner">
           <div class="item active">
-            <Image src={homeImage} alt="Chania" fluid className='img-responsive' />
+            <Image src={homeImage} alt="Chania" fluid  />
             <div class="carousel-caption">
             <Container className='heading_text'>
             <Row >
