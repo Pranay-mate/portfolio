@@ -52,7 +52,7 @@ class Certi extends React.Component {
                <Card.Body>
                   </Card.Body>
                   <Card.Footer>
-                    <a href='https://www.coursera.org/account/accomplishments/certificate/Y7KPJM96RDW3'>  <small className="text-muted">View certificate</small></a>
+                    <a href='https://www.coursera.org/account/accomplishments/certificate/969A53T9CP65'>  <small className="text-muted">View certificate</small></a>
                   </Card.Footer>
              </Card>
          </Col>
