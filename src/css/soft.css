@@ -1,0 +1,18 @@
+.SoftSkills h1{
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 0px;
+
+}
+.SoftSkills-bar{
+  padding-top: 30px;
+}
+.SoftSkills{
+    color: white!important;
+  background-color: #3b4345;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.SoftSkills p{
+  font-size: calc(0.3em + 1vw);
+}

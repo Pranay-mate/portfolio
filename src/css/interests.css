@@ -1,0 +1,31 @@
+.Interests{
+  padding: 50px;
+  padding-top: calc(10em+ 1vh);
+  background-color: #f2ebd8;
+}
+.interests{
+
+  font-weight: bold;
+
+  padding-top: 50px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.interests h1{
+  color: red;
+}
+.languages{
+  color: red;
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: calc(1em + 1vw + 1vh);
+}
+.im{
+  height: 200px;
+}
+.star{
+
+    height: calc(2em + 1vw);
+    padding-top: calc(0.2em + 0.1vw);
+
+}
