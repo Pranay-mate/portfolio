@@ -25,6 +25,9 @@
 .im{
   height: 200px;
 }
+.img-responsive{
+  height: 250px;
+}
 .star{
 
     height: calc(2em + 1vw);

@@ -1,19 +1,14 @@
 import React from 'react';
-import Fitness from '../images/MERN.jpeg';
-import MERN from '../images/PHP.png';
-import PHP from '../images/Wordpress.jpeg';
-import Wordpress from '../images/fitness.jpeg';
-import Trek from '../images/trek.jpg';
-import Code from '../images/code.jpeg';
-import Netflix from '../images/netflix.png';
-import Dark from '../images/dark.jpeg';
+import MERN from '../images/MERN.jpeg';
+import PHP from '../images/PHP.png';
+import Wordpress from '../images/Wordpress.jpeg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import '../css/interests.css';
+import '../css/certificates.css';
 
 
 
@@ -35,42 +30,39 @@ class Certi extends React.Component {
 
 
   return (
-    <div className="Interests  section-full">
+    <div className="Certificates  section-full">
     <h1>Certificates</h1>
     <Container >
     <CardDeck>
 
        <Row >
-         <Col xs={4}>
+         <Col xs={6}  lg={4}>
               <Card>
-              <Card.Header>Header</Card.Header>
-                <Card.Img variant="top" className='im' src={MERN} alt='loading..' />
+                <Card.Img variant="top" className='img-responsive' src={MERN} alt='loading..' />
                 <Card.Body>
                    </Card.Body>
                 <Card.Footer>
-                  <a href='http://localhost:3000/portfolio'>  <small className="text-muted">CODE</small></a>
+                  <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/6BCDW9XJBV4F'>  <small className="text-muted">View certificate</small></a>
                 </Card.Footer>
               </Card>
          </Col>
-         <Col xs={4}>
+         <Col xs={6} lg={4}>
              <Card>
-             <Card.Header>Header</Card.Header>
-               <Card.Img variant="top" className='im' src={PHP} alt='loading..' />
+               <Card.Img variant="top" className='img-responsive' src={PHP} alt='loading..' />
                <Card.Body>
                   </Card.Body>
-               <Card.Footer>
-                 <a href='http://localhost:3000/portfolio'>  <small className="text-muted">CODE</small></a>
-               </Card.Footer>
+                  <Card.Footer>
+                    <a href='https://www.coursera.org/account/accomplishments/certificate/Y7KPJM96RDW3'>  <small className="text-muted">View certificate</small></a>
+                  </Card.Footer>
              </Card>
          </Col>
-         <Col xs={4}>
+         <Col xs={6} lg={4}>
             <Card>
-            <Card.Header>Header</Card.Header>
-              <Card.Img variant="top" className='im' src={Wordpress} alt='loading..' />
+              <Card.Img variant="top" className='img-responsive' src={Wordpress} alt='loading..' />
               <Card.Body>
                  </Card.Body>
               <Card.Footer>
-                <a href='http://localhost:3000/portfolio'>  <small className="text-muted">CODE</small></a>
+                <a href='https://www.coursera.org/account/accomplishments/certificate/Y7KPJM96RDW3'>  <small className="text-muted">View certificate</small></a>
               </Card.Footer>
             </Card>
          </Col>
