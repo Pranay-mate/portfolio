@@ -24,7 +24,7 @@ function AboutMe() {
 
 
         <p>Highly patient in work and a quick learner. I like to learn new things and Interested in full-stack web development.</p>
-        <a href="https://drive.google.com/file/d/1AURlJpo9W75q400JDIZ09eFj8piw8EQw/view?usp=drivesdk">  <button type="button" class="btn btn-dark">Resume</button></a>
+        <a href="https://drive.google.com/file/d/16vhhGXTI9U7uAb_RggjwyNjB84MfDMrm/view?usp=sharing">  <button type="button" class="btn btn-dark">Resume</button></a>
 
         </Col>
 
