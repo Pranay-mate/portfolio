@@ -29,7 +29,7 @@ function AboutMe() {
         </Col>
 
         <Col xs={4}>
-          <Image className='mine img-fluid img-thumbnail' src={mine} roundedCircle width={250} height={250} alt='loading..' />
+          <Image className='mine img-fluid img-thumbnail' src={mine} roundedCircle width={300} height={300} alt='loading..' />
         </Col>
       </Row>
     </Container>

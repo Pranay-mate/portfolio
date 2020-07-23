@@ -81,7 +81,7 @@ class Interests extends React.Component {
               <div class="carousel-caption">
 
               <h5>Searching for me? I must be there, coding.</h5>
-              <h4>"Talk less code there"</h4>
+              <h4>"Talk less code More"</h4>
               </div>
               </div>
             </ReactCardFlip>
@@ -130,7 +130,7 @@ class Interests extends React.Component {
               <div class="carousel-caption">
 
               <h6>Didn't find me yet? I am definitely at some hill top.</h6>
-              <h5>"Enjoying breathtaking views ❤️"</h5>
+              <h4>"Enjoying breathtaking views ❤️"</h4>
               </div>
               </div>
             </ReactCardFlip>
