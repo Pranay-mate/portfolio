@@ -42,7 +42,7 @@ function TechnicalSkills() {
     "background": "#849ebd"
   }
 };
-const headline = '< Technical Skills />';
+const headline = '<Technical Skills/>';
   return (
     <div className="TechnicalSkills section-full">
 
