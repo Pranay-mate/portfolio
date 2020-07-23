@@ -71,7 +71,7 @@ class Navba extends Component {
                               to="TechnicalSkills"
                               spy={true}
                               smooth={true}
-                              offset={-80}
+                              offset={-60}
                               duration={500}
                             >Skills</Link>
                             </NavItem>
