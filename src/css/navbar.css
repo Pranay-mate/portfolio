@@ -8,7 +8,6 @@
   position: absolute;
   padding-top: 0px;
   margin-top: 0px;
-  height: 4.3em;
 }
 
 .nav-item {
@@ -17,4 +16,8 @@
 
 .nav-link {
   cursor: pointer;
+}
+.Link{
+  color: white;
+  background-color: white;
 }
