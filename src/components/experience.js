@@ -34,7 +34,7 @@ function Experience() {
     contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
 
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon=<img className='img-responsive' src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"  alt='loading..' />
+    icon=<img fluid src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"  alt='loading..' />
   >
     <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
     <h4 className="vertical-timeline-element-subtitle">WeeToo Ecom Pvt. Ltd.</h4>
