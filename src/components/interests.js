@@ -80,7 +80,8 @@ class Interests extends React.Component {
               <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedC: false})}} alt='loading..' />
               <div class="carousel-caption">
 
-              <h1 isFlippedC={true}>my fav movie is this</h1>
+              <h5>Searching for me? I must be there, coding.</h5>
+              <h4>"Talk less code there"</h4>
               </div>
               </div>
             </ReactCardFlip>
@@ -92,31 +93,53 @@ class Interests extends React.Component {
             <Card>
               <ReactCardFlip isFlipped={this.state.isFlippedF} flipDirection="horizontal">
                 <Card.Img variant="top" className='im' src={Fitness} onMouseOver={() => {this.setState({isFlippedF: true})}} alt='loading..' />
+                <div>
                 <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedF: false})}} alt='loading..' />
+                <div class="carousel-caption">
+
+                <h5>Not coding? Then I am definitely at the gym.</h5>
+                <h4>"abs>>carbs"</h4>
+                </div>
+                </div>
               </ReactCardFlip>
               <Card.Footer>
                 <small className="text-muted">FITNESS</small>
               </Card.Footer>
             </Card>
             <Card>
+            <ReactCardFlip isFlipped={this.state.isFlippedN} flipDirection="horizontal">
+              <Card.Img variant="top" className='im' src={Netflix} onMouseOver={() => {this.setState({isFlippedN: true})}} alt='loading..' />
+              <div>
+              <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedN: false})}} alt='loading..' />
+              <div class="carousel-caption">
+
+              <h4>Not even there? Oh, so I must be binge watching latest shows</h4>
+
+              </div>
+              </div>
+            </ReactCardFlip>
+              <Card.Footer>
+                <small className="text-muted">Binge Watching</small>
+              </Card.Footer>
+            </Card>
+            <Card>
             <ReactCardFlip isFlipped={this.state.isFlippedT} flipDirection="horizontal">
               <Card.Img variant="top" className='im' src={Trek} onMouseOver={() => {this.setState({isFlippedT: true})}} alt='loading..' />
+              <div>
               <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedT: false})}} alt='loading..' />
+              <div class="carousel-caption">
+
+              <h6>Didn't find me yet? I am definitely at some hill top.</h6>
+              <h5>"Enjoying breathtaking views ❤️"</h5>
+              </div>
+              </div>
             </ReactCardFlip>
               <Card.Footer>
                 <small className="text-muted">TREK</small>
               </Card.Footer>
             </Card>
 
-            <Card>
-            <ReactCardFlip isFlipped={this.state.isFlippedN} flipDirection="horizontal">
-              <Card.Img variant="top" className='im' src={Netflix} onMouseOver={() => {this.setState({isFlippedN: true})}} alt='loading..' />
-              <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedN: false})}} alt='loading..' />
-            </ReactCardFlip>
-              <Card.Footer>
-                <small className="text-muted">NETFLIX</small>
-              </Card.Footer>
-            </Card>
+
           </CardDeck>
 
     </div>
