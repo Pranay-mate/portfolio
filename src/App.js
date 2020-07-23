@@ -12,6 +12,7 @@ import Experience from './components/experience';
 import Interests from './components/interests';
 import Volunteer from './components/volunteer';
 import Navbar from './components/navbar';
+import Certi from './components/Certificates';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <AboutMe />
     <Education />
     <Experience />
+    <Certi />
     <TechnicalSkills />
     <Projects />
     <SoftSkills />
