@@ -9,4 +9,8 @@
   padding: 0.5em;
   font-size: bold;
   color: white;
+  font-family: 'Playfair Display', serif;
+}
+.Experience h3{
+  font-family: 'Bree Serif', serif;
 }

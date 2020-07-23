@@ -8,7 +8,7 @@
 }
 .heading{
   font-size: calc(1.5em  + 0.5vw);
-
+font-family: 'Playfair Display', serif;
 }
 
 .Home{

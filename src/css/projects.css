@@ -8,4 +8,8 @@
 .Projects h1{
   padding: 0.5em;
   font-size: bold;
+  font-family: 'Playfair Display', serif;
+}
+.Projects h3{
+  font-family: 'Bree Serif', serif;
 }

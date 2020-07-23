@@ -6,8 +6,9 @@
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-.TechnicalSkills h1{
+.TechnicalSkills h2{
   font-weight: bold;
   padding: 25px;
   color: white;
+  font-family: 'Playfair Display', serif;
 }

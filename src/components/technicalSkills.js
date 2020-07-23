@@ -49,7 +49,7 @@ const headline = '<Technical Skills/>';
   <Container>
       <Row>
         <Col xs={12}>
-        <h1>{headline}</h1>
+        <h2>{headline}</h2>
 
         </Col>
 

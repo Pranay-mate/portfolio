@@ -13,9 +13,11 @@
 }
 .interests h1{
   color: red;
+  font-family: 'Playfair Display', serif;
 }
 .languages{
   color: red;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   margin-top: 25px;
   font-size: calc(1em + 1vw + 1vh);
