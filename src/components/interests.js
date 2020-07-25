@@ -75,9 +75,9 @@ class Interests extends React.Component {
 
 
             <ReactCardFlip isFlipped={this.state.isFlippedC} flipDirection="horizontal">
-              <Card.Img variant="top" className='im' src={Code} onMouseOver={() => {this.setState({isFlippedC: true})}} alt='loading..' />
+              <Card.Img variant="top" className='im' src={Code} onMouseOver={() => {this.setState({isFlippedC: true})}} onClick={() => {this.setState({isFlippedC: true})}} alt='loading..' />
               <div>
-              <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedC: false})}} alt='loading..' />
+              <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedC: false})}} onClick={() => {this.setState({isFlippedC: false})}} alt='loading..' />
               <div class="carousel-caption">
 
               <h5>Searching for me? I must be there, coding.</h5>
@@ -92,9 +92,9 @@ class Interests extends React.Component {
             </Card>
             <Card>
               <ReactCardFlip isFlipped={this.state.isFlippedF} flipDirection="horizontal">
-                <Card.Img variant="top" className='im' src={Fitness} onMouseOver={() => {this.setState({isFlippedF: true})}} alt='loading..' />
+                <Card.Img variant="top" className='im' src={Fitness} onMouseOver={() => {this.setState({isFlippedF: true})}} onClick={() => {this.setState({isFlippedF: true})}} alt='loading..' />
                 <div>
-                <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedF: false})}} alt='loading..' />
+                <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedF: false})}} onClick={() => {this.setState({isFlippedF: false})}} alt='loading..' />
                 <div class="carousel-caption">
 
                 <h5>Not coding? Then I am definitely at the gym.</h5>
@@ -108,9 +108,9 @@ class Interests extends React.Component {
             </Card>
             <Card>
             <ReactCardFlip isFlipped={this.state.isFlippedN} flipDirection="horizontal">
-              <Card.Img variant="top" className='im' src={Netflix} onMouseOver={() => {this.setState({isFlippedN: true})}} alt='loading..' />
+              <Card.Img variant="top" className='im' src={Netflix} onMouseOver={() => {this.setState({isFlippedN: true})}} onClick={() => {this.setState({isFlippedN: true})}} alt='loading..' />
               <div>
-              <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedN: false})}} alt='loading..' />
+              <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedN: false})}} onClick={() => {this.setState({isFlippedN: false})}} alt='loading..' />
               <div class="carousel-caption">
 
               <h4>Not even there? Oh, so I must be binge watching latest shows</h4>
@@ -124,9 +124,9 @@ class Interests extends React.Component {
             </Card>
             <Card>
             <ReactCardFlip isFlipped={this.state.isFlippedT} flipDirection="horizontal">
-              <Card.Img variant="top" className='im' src={Trek} onMouseOver={() => {this.setState({isFlippedT: true})}} alt='loading..' />
+              <Card.Img variant="top" className='im' src={Trek} onMouseOver={() => {this.setState({isFlippedT: true})}} onClick={() => {this.setState({isFlippedT: true})}} alt='loading..' />
               <div>
-              <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedT: false})}} alt='loading..' />
+              <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedT: false})}} onClick={() => {this.setState({isFlippedT: false})}} alt='loading..' />
               <div class="carousel-caption">
 
               <h6>Didn't find me yet? I am definitely at some hill top.</h6>
