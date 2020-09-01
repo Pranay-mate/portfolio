@@ -14,7 +14,7 @@ function AboutMe() {
 
   <Container>
       <Row>
-      <Col xs={12} lg={4}>
+      <Col xs={12} lg={4} className='text-center'>
         <Image className='mine img-fluid img-thumbnail' src={mine} roundedCircle width={300} height={300} alt='loading..' />
       </Col>
         <Col xs={12} lg={8} className='AboutText' >
