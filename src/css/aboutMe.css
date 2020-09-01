@@ -1,7 +1,6 @@
 .AboutMe{
   text-align: left;
   background-color: #f8f9fc;
-  padding: 1em 5em;
 }
 .mine{
 margin-top: calc(4em + 1vh);
@@ -33,6 +32,9 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   .AboutText p{
     margin: 5px;
     font-size: calc(0.6em + 1vw);
+  }
+  .AboutMe{
+    padding: 1em 5em;
   }
 }
 .AboutText{
