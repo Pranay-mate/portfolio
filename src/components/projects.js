@@ -68,10 +68,7 @@ function Projects() {
       Portfolio made in using HTML, CSS, Bootstrap, and ReactJs.
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
-    iconStyle={{ background: 'red', color: '#fff' }}
-    icon=<img className='iconp' src="https://img.icons8.com/android/40/000000/star.png" alt='loading..' />
-  />
+
 </VerticalTimeline>
 
 

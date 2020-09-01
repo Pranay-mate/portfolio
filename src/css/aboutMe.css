@@ -10,11 +10,32 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 @media only screen and (max-width: 600px) {
   /* For tablets: */
   .mine{
-  margin-top: calc(2em + 1vh);
+  margin-top: calc(1.5em + 1vh);
+  }
+  .AboutText{
+    padding-top: calc(1em + 1vh);
+  }
+  .AboutMe .icons{
+    padding-top: 1em;
+  }
+  .AboutText p{
+    margin: 5px;
+
+    font-size: calc(0.5em + 1vw);
+  }
+}
+@media only screen and (min-width: 601px) {
+  /* For tablets: */
+
+  .AboutText{
+    padding-top: calc(4em + 1vh);
+  }
+  .AboutText p{
+    margin: 5px;
+    font-size: calc(0.4em + 1vw);
   }
 }
 .AboutText{
-  padding-top: calc(2em + 1vh);
 font-family: 'Crimson Text', serif;
 }
 .AboutText h5{
@@ -31,7 +52,27 @@ font-family: 'Crimson Text', serif;
   font-size: calc(1em + 1vw);
 font-family: 'Playfair Display', serif;
 }
-.AboutText p{
-  margin: 5px;
-  font-size: calc(0.3em + 1vw);
+.icons img{
+  color: black;
+}
+.heading span{
+  color: red;
+  font-weight: bold;
+  font-size: calc(0.7em + 1vw);
+}
+.heading{
+  font-size: calc(1.5em  + 0.5vw);
+font-family: 'Playfair Display', serif;
+}
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .heading span{
+    color: red;
+    font-weight: bold;
+    font-size: calc(1.1em + 1vw);
+  }
+}
+.Home{
+  margin-bottom: 0px;
+  color: black;
 }

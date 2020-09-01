@@ -71,7 +71,7 @@ class Interests extends React.Component {
 
 
       </Container>
-          <CardDeck>
+          <CardDeck className='desk'>
             <Card>
 
 
@@ -114,7 +114,7 @@ class Interests extends React.Component {
               <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedN: false})}} onClick={() => {this.setState({isFlippedN: false})}} alt='loading..' />
               <div class="carousel-caption">
 
-              <h4>Not even there? Oh, so I must be binge watching latest shows</h4>
+              <h5>Not even there? Oh, so I must be binge watching latest shows</h5>
 
               </div>
               </div>
@@ -130,7 +130,7 @@ class Interests extends React.Component {
               <Card.Img variant="top" className='im' src={Dark} onMouseOut={() => {this.setState({isFlippedT: false})}} onClick={() => {this.setState({isFlippedT: false})}} alt='loading..' />
               <div class="carousel-caption">
 
-              <h6>Didn't find me yet? I am definitely at some hill top.</h6>
+              <h5>Didn't find me yet? I am definitely at some hill top.</h5>
               <h4>"Enjoying breathtaking views ❤️"</h4>
               </div>
               </div>

@@ -19,7 +19,6 @@ function App() {
   return (
     <div className="App">
     <Navbar />
-    <Home />
     <AboutMe />
     <Education />
     <Experience />

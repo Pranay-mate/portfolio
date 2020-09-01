@@ -4,7 +4,7 @@
 .heading span{
   color: red;
   font-weight: bold;
-  font-size: calc(0.8em + 1vw);
+  font-size: calc(0.57em + 1vw);
 }
 .heading{
   font-size: calc(1.5em  + 0.5vw);
