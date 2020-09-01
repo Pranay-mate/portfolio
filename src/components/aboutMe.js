@@ -14,7 +14,10 @@ function AboutMe() {
 
   <Container>
       <Row>
-        <Col xs={8} className='AboutText' >
+      <Col xs={12} lg={4}>
+        <Image className='mine img-fluid img-thumbnail' src={mine} roundedCircle width={300} height={300} alt='loading..' />
+      </Col>
+        <Col xs={12} lg={8} className='AboutText' >
         <h5>About me</h5>
         <h3><span>Aspiring</span> Full Stack developer</h3>
         <p>Currently pursuing my BE in Information Technology.</p>
@@ -28,9 +31,7 @@ function AboutMe() {
 
         </Col>
 
-        <Col xs={4}>
-          <Image className='mine img-fluid img-thumbnail' src={mine} roundedCircle width={300} height={300} alt='loading..' />
-        </Col>
+
       </Row>
     </Container>
     </div>

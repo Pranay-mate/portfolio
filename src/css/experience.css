@@ -11,6 +11,35 @@
   color: white;
   font-family: 'Playfair Display', serif;
 }
-.Experience h3{
+.Experience h4,h3{
   font-family: 'Bree Serif', serif;
+}
+.Experience h4{
+  font-size: 1.2em;
+}
+.Experience p{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1em;
+  font-weight: 550;
+}
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .Experience h3{
+    font-size: 1.2em;
+  }
+  .Experience h4{
+    font-size: 1em;
+  }
+  .Experience p{
+  text-align: left;
+
+  }
+}
+@media only screen and (min-width: 601px) {
+  /* For tablets: */
+
+  .Experience p{
+  text-align: center;
+
+  }
 }

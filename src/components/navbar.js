@@ -22,7 +22,7 @@ class Navba extends Component {
 
     render() {
   return (
-    <div className="main_banner sticky-top row">
+    <div className="main_banner sticky-top">
 
                 <Navbar dark expand="md" className="navbar  navbar-dark transparent-nav nav-js col-sm-12">
                     <div className="container">

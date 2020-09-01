@@ -13,3 +13,17 @@
 .Projects h3{
   font-family: 'Bree Serif', serif;
 }
+.Projects p{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1em;
+  font-weight: 550;
+  text-align:center;
+
+}
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .Projects p{
+    text-align: left;
+
+  }
+}

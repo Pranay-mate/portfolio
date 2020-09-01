@@ -1,6 +1,7 @@
 import React from 'react';
 import MERN from '../images/MERN.jpeg';
 import PHP from '../images/PHP.png';
+import AngularJs from '../images/angular.jpg';
 import Wordpress from '../images/Wordpress.jpeg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -36,33 +37,39 @@ class Certi extends React.Component {
     <CardDeck>
 
        <Row >
-         <Col xs={6}  lg={4}>
+         <Col xs={12}  lg={4}>
               <Card>
                 <Card.Img variant="top" className='img-responsive' src={MERN} alt='loading..' />
-                <Card.Body>
-                   </Card.Body>
+
                 <Card.Footer>
                   <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/6BCDW9XJBV4F'>  <small className="text-muted">View certificate</small></a>
                 </Card.Footer>
               </Card>
          </Col>
-         <Col xs={6} lg={4}>
+         <Col xs={12} lg={4}>
              <Card>
                <Card.Img variant="top" className='img-responsive' src={PHP} alt='loading..' />
-               <Card.Body>
-                  </Card.Body>
+
                   <Card.Footer>
                     <a href='https://www.coursera.org/account/accomplishments/certificate/969A53T9CP65'>  <small className="text-muted">View certificate</small></a>
                   </Card.Footer>
              </Card>
          </Col>
-         <Col xs={6} lg={4}>
+         <Col xs={12} lg={4}>
             <Card>
               <Card.Img variant="top" className='img-responsive' src={Wordpress} alt='loading..' />
-              <Card.Body>
-                 </Card.Body>
+
               <Card.Footer>
                 <a href='https://www.coursera.org/account/accomplishments/certificate/Y7KPJM96RDW3'>  <small className="text-muted">View certificate</small></a>
+              </Card.Footer>
+            </Card>
+         </Col>
+         <Col xs={12} lg={4}>
+            <Card>
+              <Card.Img variant="top" className='img-responsive' src={AngularJs} alt='loading..' />
+
+              <Card.Footer>
+                <a href='https://www.coursera.org/account/accomplishments/certificate/AT5JH4BCU5G3'>  <small className="text-muted">View certificate</small></a>
               </Card.Footer>
             </Card>
          </Col>

@@ -23,7 +23,7 @@ function Experience() {
     <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
     <h4 className="vertical-timeline-element-subtitle">Cloud Counselage Pvt. Ltd.</h4>
     <p>
-      Collected, defined, and translated user requirements into project designs and implementation plans.
+  Practical experience of working on a live project with a Predefined workflow.
     </p>
   </VerticalTimelineElement>
 
@@ -39,14 +39,29 @@ function Experience() {
     <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
     <h4 className="vertical-timeline-element-subtitle">WeeToo Ecom Pvt. Ltd.</h4>
     <p>
-      Contributing to the development of the E-commerce website along with my team members.
+  Used programming capabilities for development of E-commerce website in PHP, LARAVEL, MYSQL, VUE.JS.
+  </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="August 2020 - August 2020"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon=<img  fluid  src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png" alt='loading..' />
+  >
+    <h3 className="vertical-timeline-element-title">Freelance Web Developer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
+    <p>
+  Created a website that exemplifies my client's beliefs, skills, qualifications and experiences.
     </p>
   </VerticalTimelineElement>
-
   <VerticalTimelineElement
     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
     icon=<img className='star' src="https://img.icons8.com/android/40/000000/star.png"  alt='loading..' />
   />
+
 </VerticalTimeline>
 
 

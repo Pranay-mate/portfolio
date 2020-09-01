@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Fitness from '../images/fitness.jpeg';
 import Trek from '../images/trek.jpg';
