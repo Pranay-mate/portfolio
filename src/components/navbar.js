@@ -27,7 +27,7 @@ class Navba extends Component {
                 <Navbar dark expand="md" className="navbar  navbar-dark transparent-nav nav-js col-sm-12">
                     <div className="container">
                         <NavbarBrand className="mr-auto" href="/"><Link className="navbar-brand" href="/" activeClass="active"
-                        to="Home"
+                        to="AboutMe"
                         spy={true}
                         smooth={true}
                         offset={-200}
@@ -38,18 +38,18 @@ class Navba extends Component {
                         <NavbarToggler onClick={this.toggleNav} />
 
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav navbar className='ml-auto'>
 
                             <NavItem>
                             <Link
                             className="nav-item nav-link"
                               activeClass="active"
-                              to="AboutMe"
+                              to="Education"
                               spy={true}
                               smooth={true}
                               offset={-70}
                               duration={500}
-                            >About Me</Link>
+                            >Education</Link>
                             </NavItem>
 
                             <NavItem>

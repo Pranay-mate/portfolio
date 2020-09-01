@@ -1,7 +1,7 @@
 .AboutMe{
   text-align: left;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
+  background-color: #f8f9fc;
+  padding: 1em 5em;
 }
 .mine{
 margin-top: calc(4em + 1vh);
@@ -32,7 +32,7 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .AboutText p{
     margin: 5px;
-    font-size: calc(0.75em + 1vw);
+    font-size: calc(0.6em + 1vw);
   }
 }
 .AboutText{
@@ -49,8 +49,9 @@ font-family: 'Crimson Text', serif;
   font-weight: bold;
 }
 .AboutText h3{
-  font-size: calc(1em + 1vw);
+  font-size: calc(1.4em + 1vw);
 font-family: 'Playfair Display', serif;
+padding-bottom:  0.5em;
 }
 .icons img{
   color: black;

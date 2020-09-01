@@ -13,7 +13,7 @@ const a= '<';
 const b= '>';
 function AboutMe() {
   return (
-    <div className="AboutMe container">
+    <div className="AboutMe ">
 
   <Container fluid>
       <Row>
@@ -71,7 +71,7 @@ function AboutMe() {
 
 
         <p>Highly patient in work and a quick learner. I like to learn new things and Interested in full-stack web development.</p>
-        <a href="https://drive.google.com/file/d/1PDlOnjNMeUxkiwvyT-3B4cnDg7RuvwfS/view?usp=sharing">  <button type="button" class="btn btn-dark">Resume</button></a>
+        <a href="https://drive.google.com/file/d/1QunQseTiT_HsFwTcO3ApkwE7y9S_9dxC/view?usp=sharing">  <button type="button" class="btn btn-dark">Resume</button></a>
 
         </Col>
 
