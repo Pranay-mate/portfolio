@@ -5,10 +5,16 @@
   opacity: 0.7;
   /*0.5 determines transparency value*/
   filter: (opacity=50);
+  font-family: 'East Sea Dokdo', cursive;
+  padding: 0px  ;
 }
-
+.navbar-brand{
+  font-size: 1.6em;
+}
 .nav-item {
   margin: 0px 10px;
+  font-size: 1.4em;
+
 }
 
 .nav-link {

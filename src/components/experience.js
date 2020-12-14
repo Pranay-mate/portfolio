@@ -57,6 +57,20 @@ function Experience() {
   Created a website that exemplifies my client's beliefs, skills, qualifications and experiences.
     </p>
   </VerticalTimelineElement>
+    <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    date="Nov 2020 - Present"
+    contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    icon=<img fluid src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"  alt='loading..' />
+  >
+    <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
+    <h4 className="vertical-timeline-element-subtitle">
+    AppInSource - ideas to solutions</h4>
+ 
+  </VerticalTimelineElement>
   <VerticalTimelineElement
     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
     icon=<img className='star' src="https://img.icons8.com/android/40/000000/star.png"  alt='loading..' />

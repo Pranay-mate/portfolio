@@ -26,7 +26,7 @@ class Navba extends Component {
 
                 <Navbar dark expand="md" className="navbar  navbar-dark transparent-nav nav-js col-sm-12">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><Link className="navbar-brand" href="/" activeClass="active"
+                        <NavbarBrand className="mr-auto" href="/"><Link className="navbar-brand ml-4" href="/" activeClass="active"
                         to="AboutMe"
                         spy={true}
                         smooth={true}
