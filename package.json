@@ -15,6 +15,7 @@
     "react-circular-progressbar": "^2.0.3",
     "react-dom": "^16.13.1",
     "react-flipcard": "^0.2.1",
+    "react-ga": "^3.3.0",
     "react-gradient-progress": "^1.0.3",
     "react-move": "^6.4.0",
     "react-responsive-image": "^5.0.0",
