@@ -65,11 +65,9 @@ function AboutMe() {
         <h5>About me</h5>
         <h3><span>Aspiring</span> Full Stack developer</h3>
         <p>Currently pursuing my BE in Information Technology.</p>
-        <p>Expertise in MERN stack In the web development domain. Also completed relevant courses on MERN stack specialization.</p>
+        <p>Expertise in PHP/ Laravel and MERN stack technology, In the web development domain. Also completed relevant courses on MERN stack specialization.</p>
         <p>I love to add more technology stacks to improve my technical skills and working on it.</p>
         <p>I believe in #keeplearning and #keepCoding.</p>
-
-
         <p>Highly patient in work and a quick learner. I like to learn new things and Interested in full-stack web development.</p>
         <a href="https://drive.google.com/file/d/1Qsc0zpER0yK-XqPL913x84JSnH3vWONj/view?usp=sharing">  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
 
