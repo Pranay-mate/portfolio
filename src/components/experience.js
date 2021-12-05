@@ -69,6 +69,8 @@ function Experience() {
     <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
     <h4 className="vertical-timeline-element-subtitle">
     AppInSource - ideas to solutions</h4>
+    <p>Working on Fintech applications.</p><p> Contributing as developer to the projects which are based on
+    PHP( LARAVEL ) framework with oracle as a backend.</p>
  
   </VerticalTimelineElement>
   <VerticalTimelineElement
