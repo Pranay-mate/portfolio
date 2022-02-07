@@ -24,9 +24,9 @@ function Volunteer() {
   >
     <h3 className="vertical-timeline-element-title">Information Technology Student Association</h3>
     <h4 className="vertical-timeline-element-subtitle">Sports Coordinator</h4>
-    <p>
+    {/* <p>
     LEADERSHIP, TEAMWORK, CONFIDENCE, PROBLEM-SOLVING
-    </p>
+    </p> */}
   </VerticalTimelineElement>
 </VerticalTimeline>
 
