@@ -52,7 +52,7 @@ class Interests extends React.Component {
     <div className="Interests  section-full">
 
   <Container>
-      <Row >
+      {/* <Row >
         <Col xs={12} lg={3} >
           <h1 className='languages'>Languages</h1>
           <h5>I Speak</h5>
@@ -61,7 +61,7 @@ class Interests extends React.Component {
         <Col xs={12} lg={8} className='percentage'>
           <SkillBar  skills={skills} height={20} colors={colors}/>
         </Col>
-        </Row>
+        </Row> */}
       <Row>
         <Col xs={12} className='interests'>
           <h1>Interests</h1>

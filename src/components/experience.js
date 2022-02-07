@@ -66,7 +66,7 @@ function Experience() {
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon=<img fluid src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"  alt='loading..' />
   >
-    <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
+    <h3 className="vertical-timeline-element-title">PHP/ Laravel Intern</h3>
     <h4 className="vertical-timeline-element-subtitle">
     AppInSource - ideas to solutions</h4>
     <p>Working on Fintech applications.</p><p> Contributing as developer to the projects which are based on
