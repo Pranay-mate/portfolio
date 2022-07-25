@@ -64,7 +64,7 @@ function AboutMe() {
         <Col xs={12} lg={8} className='AboutText' >
         <h5>About me</h5>
         <h3><span>Aspiring</span> Full Stack developer</h3>
-        <p>I did my BE in Information Technology and obsessed with the development of Web applications.</p>
+        <p>I did my BE in Information Technology and I am obsessed with the development of Web applications.</p>
         <p>1.5 years of development experience in php/Laravel.</p>
         <p>Love to engage my time in solving problems.</p>
         <p>Highly patient in work and a quick learner. I like to learn new things and Interested in full-stack web development.</p>
