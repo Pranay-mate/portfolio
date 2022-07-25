@@ -24,7 +24,7 @@ function Projects() {
     <p>
     Interactive web application prepared using MERN stack, which assists users to build resume and get score as per user's resume.
     </p>
-    <a href="https://pranay-mate.github.io/Final_year/index.html">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
+    <a href="https://pranay-mate.github.io/Final_year/index.html">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">View</button></a>
   </VerticalTimelineElement>
 
   {/* <VerticalTimelineElement
@@ -55,7 +55,7 @@ function Projects() {
     <p>
       Book subscription web application ( responsive ) made using angular.
     </p>
-    <a href="https://pranay-mate.github.io/easyBooks/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
+    <a href="https://pranay-mate.github.io/easyBooks/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">View</button></a>
   </VerticalTimelineElement>
 
 
@@ -72,7 +72,7 @@ icon=<img className='iconp' src="https://img.icons8.com/metro/60/000000/wordpres
     <p>
       Expressive, utterly responsive e-commerce website which built on Wordpress platform by keeping all user requirements in mind.
     </p>
-    <a href="https://explore431603904.wordpress.com/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
+    <a href="https://explore431603904.wordpress.com/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">View</button></a>
   </VerticalTimelineElement>
   
 <VerticalTimelineElement
@@ -89,7 +89,7 @@ icon=<img className='iconp' src="https://img.icons8.com/nolan/60/react-native.pn
   Portfolio made in using HTML, CSS, Bootstrap, and ReactJs.
 </p>
 
-    <a href="https://pranay-mate.github.io/portfolio/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
+    <a href="https://pranay-mate.github.io/portfolio/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">View</button></a>
     </VerticalTimelineElement>
 
 
