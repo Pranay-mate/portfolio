@@ -14,7 +14,6 @@ function Education() {
 <VerticalTimeline layout= "1-column">
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-
     position='right'
     contentStyle={{ background: 'rgb(96,96,96)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(96,96,96)' }}

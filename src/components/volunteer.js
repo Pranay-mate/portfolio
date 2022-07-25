@@ -14,7 +14,6 @@ function Volunteer() {
 <VerticalTimeline layout= "1-column">
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-
     position='right'
     contentStyle={{ background: '#3498db', color: '#fff', borderTop: '7px solid black' }}
     contentArrowStyle={{ borderRight: '7px solid  #3498db' }}

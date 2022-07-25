@@ -62,6 +62,7 @@ class Interests extends React.Component {
           <SkillBar  skills={skills} height={20} colors={colors}/>
         </Col>
         </Row> */}
+        
       <Row>
         <Col xs={12} className='interests'>
           <h1>Interests</h1>

@@ -67,6 +67,7 @@ function Experience() {
     icon=<img fluid src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"  alt='loading..' />
   >
     <h3 className="vertical-timeline-element-title">Web Developer</h3>
+    
     <h4 className="vertical-timeline-element-subtitle">
     AppInSource - ideas to solutions</h4>
     <p>Working on Fintech applications.</p><p> Contributing as developer to the projects which are based on

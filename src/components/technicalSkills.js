@@ -20,7 +20,6 @@ function TechnicalSkills() {
     {type: "PHP", level: 75},
     {type: "MySql", level: 75},
     {type: "ReactJs", level: 90},
-
   ];
   const skillsB = [
     {type: "NodeJs", level: 75},

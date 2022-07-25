@@ -88,6 +88,7 @@ icon=<img className='iconp' src="https://img.icons8.com/nolan/60/react-native.pn
 <p>
   Portfolio made in using HTML, CSS, Bootstrap, and ReactJs.
 </p>
+
     <a href="https://pranay-mate.github.io/portfolio/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
     </VerticalTimelineElement>
 
