@@ -16,7 +16,6 @@ function TechnicalSkills() {
     {type: "Bootstrap", level: 100},
     {type: "JQuery", level: 75},
     {type: "JSON", level: 100},
-    {type: "Python", level: 50},
     {type: "Javascript", level: 75},
     {type: "PHP", level: 75},
     {type: "MySql", level: 75},
@@ -29,11 +28,9 @@ function TechnicalSkills() {
     {type: "MongoDB", level: 75},
     {type: "Mongoose", level: 75},
     {type: "Laravel", level: 75},
-    {type: "VueJs", level: 50},
     {type: "AngularJs", level: 50},
     {type: "Wordpress", level: 75},
     {type: "GitHub", level: 100},
-    {type: "DigitalMarketing", level: 75},
 
   ];
   const colors = {

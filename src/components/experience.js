@@ -11,7 +11,7 @@ function Experience() {
     <h1>Experience</h1>
   <Container>
   <VerticalTimeline>
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--work"
 
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -41,7 +41,7 @@ function Experience() {
     <p>
   Used programming capabilities for development of E-commerce website in PHP, LARAVEL, MYSQL, VUE.JS.
   </p>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
 
@@ -66,7 +66,7 @@ function Experience() {
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon=<img fluid src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"  alt='loading..' />
   >
-    <h3 className="vertical-timeline-element-title">PHP/ Laravel Intern</h3>
+    <h3 className="vertical-timeline-element-title">Web Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">
     AppInSource - ideas to solutions</h4>
     <p>Working on Fintech applications.</p><p> Contributing as developer to the projects which are based on

@@ -29,11 +29,11 @@ function SoftSkills() {
                 <p>TEAMWORK</p>
             </Col>
             <Col xs={3}>
-                <CircleProgress percentage={90} width={70} />
+                <CircleProgress percentage={100} width={70} />
                 <p>CONFIDENCE</p>
             </Col>
             <Col xs={3}>
-                <CircleProgress percentage={90} width={70} />
+                <CircleProgress percentage={100} width={70} />
                 <p>PROBLEM SOLVING</p>
             </Col>
             </Row>

@@ -24,9 +24,10 @@ function Projects() {
     <p>
     Interactive web application prepared using MERN stack, which assists users to build resume and get score as per user's resume.
     </p>
+    <a href="https://pranay-mate.github.io/Final_year/index.html">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
   </VerticalTimelineElement>
 
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="December 2020 - December 2020"
     iconStyle={{ background: '#86aadb', color: '#000000' }}
@@ -39,7 +40,7 @@ function Projects() {
     <p>
     Flight booking web application made using PHP, Laravel and MySql.
     </p>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -54,13 +55,14 @@ function Projects() {
     <p>
       Book subscription web application ( responsive ) made using angular.
     </p>
+    <a href="https://pranay-mate.github.io/easyBooks/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
   </VerticalTimelineElement>
 
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
 
-    contentStyle={{borderTop: '5px solid black'} }
+    contentStyle={{borderTop: '5px solid red'} }
     date="July 2020 - July 2020"
 iconStyle={{ background: '#86aadb', color: '#000000' }}
 icon=<img className='iconp' src="https://img.icons8.com/metro/60/000000/wordpress.png" alt='loading..' />
@@ -70,6 +72,7 @@ icon=<img className='iconp' src="https://img.icons8.com/metro/60/000000/wordpres
     <p>
       Expressive, utterly responsive e-commerce website which built on Wordpress platform by keeping all user requirements in mind.
     </p>
+    <a href="https://explore431603904.wordpress.com/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
   </VerticalTimelineElement>
   
 <VerticalTimelineElement
@@ -85,7 +88,8 @@ icon=<img className='iconp' src="https://img.icons8.com/nolan/60/react-native.pn
 <p>
   Portfolio made in using HTML, CSS, Bootstrap, and ReactJs.
 </p>
-</VerticalTimelineElement>
+    <a href="https://pranay-mate.github.io/portfolio/">  <button type="button" class=" ml-1 mt-2 btn-sm btn btn-dark">CheckOut</button></a>
+    </VerticalTimelineElement>
 
 
 </VerticalTimeline>

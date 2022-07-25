@@ -18,7 +18,7 @@ function Education() {
     position='right'
     contentStyle={{ background: 'rgb(96,96,96)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(96,96,96)' }}
-    date="2017 - present"
+    date="2017 - 2022"
     iconStyle={{ background: 'rgb(96,96,96)', color: '#fff' }}
     icon=<img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/student-center.png" alt='loading..' />
   >

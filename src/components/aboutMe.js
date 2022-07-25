@@ -64,12 +64,12 @@ function AboutMe() {
         <Col xs={12} lg={8} className='AboutText' >
         <h5>About me</h5>
         <h3><span>Aspiring</span> Full Stack developer</h3>
-        <p>Currently pursuing my BE in Information Technology.</p>
-        <p>Expertise in PHP/ Laravel and MERN stack technologies, In the web development domain. Also completed relevant courses on MERN stack specialization.</p>
-        <p>I love to add more technology stacks to improve my technical skills and working on it.</p>
-        <p>I believe in #keeplearning and #keepCoding.</p>
+        <p>I did my BE in Information Technology and obsessed with the development of Web applications.</p>
+        <p>1.5 years of development experience in php/Laravel.</p>
+        <p>Love to engage my time in solving problems.</p>
         <p>Highly patient in work and a quick learner. I like to learn new things and Interested in full-stack web development.</p>
-        <a href="https://drive.google.com/file/d/1Qsc0zpER0yK-XqPL913x84JSnH3vWONj/view?usp=sharing">  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
+        <p>Love to add more technology stacks to improve my technical skills and believe in #keeplearning and #keepCoding.</p>
+        <a href="https://drive.google.com/file/d/1nHSdcEobXAC7vwZ1dPs6N0yRUSmCGsbK/view?usp=sharing">  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
 
         </Col>
 
