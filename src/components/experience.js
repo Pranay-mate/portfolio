@@ -59,7 +59,7 @@ function Experience() {
   </VerticalTimelineElement>
     <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="Nov 2020 - Present"
+    date="Nov 2020 - Apr 2022"
     contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
 
@@ -70,8 +70,9 @@ function Experience() {
     
     <h4 className="vertical-timeline-element-subtitle">
     AppInSource - ideas to solutions</h4>
-    <p>Working on Fintech applications.</p><p> Contributing as developer to the projects which are based on
-    PHP( LARAVEL ) framework with oracle as a backend.</p>
+    <p>Worked on Fintech applications. </p><p> Contributed as developer to the 3 major projects which were
+based on PHP(LARAVEL) framework with oracle as a
+backend. </p>
  
   </VerticalTimelineElement>
   <VerticalTimelineElement
