@@ -23,12 +23,12 @@ function AboutMe() {
         <Row >
         <Col xs={12} className='heading'>
 
-        <Typist cursor={{ hideWhenDone: true }}>
-        <span>Aspiring</span> Full Stack developer
-        <Typist.Backspace count={29} delay={200}  />
-        <span>{a}Web</span> Developer/{b}
+          <Typist cursor={{ hideWhenDone: true }}>
+          <span>Aspiring</span> Full Stack developer
+          <Typist.Backspace count={29} delay={200}  />
+          <span>{a}Full Stack</span> Developer/{b}
 
-        </Typist>
+          </Typist>
         </Col>
         </Row>
 
@@ -62,15 +62,22 @@ function AboutMe() {
             </Container>
       </Col>
         <Col xs={12} lg={8} className='AboutText' >
-        <h5>About me</h5>
-        <h3><span>Aspiring</span> Full Stack developer</h3>
-        <p>I did my BE in Information Technology and I am obsessed with the development of Web applications.</p>
-        <p>1.5 years of development experience in php/Laravel.</p>
-        <p>Love to engage my time in solving problems.</p>
-        <p>Highly patient in work and a quick learner. I like to learn new things and Interested in full-stack web development.</p>
-        <p>Love to add more technology stacks to improve my technical skills and believe in #keeplearning and #keepCoding.</p>
-        <a href="https://drive.google.com/file/d/1nHSdcEobXAC7vwZ1dPs6N0yRUSmCGsbK/view?usp=sharing">  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
+          <h5>About me</h5>
+          <h3><span>Full Stack developer</span> </h3>
 
+          <p>I am a Full Stack Developer with over 2 years of experience, passionate about creating intuitive and user-friendly web applications. My expertise lies in front-end web development, back-end development, and database management. I am proficient in a variety of programming languages and frameworks, including HTML, CSS, Bootstrap, JavaScript, ReactJS, NodeJS, ExpressJS, MySql, PHP, and Laravel.</p>
+
+          <p>I hold a Bachelor's degree in Information Technology from Mumbai University and have completed various courses, including Full-Stack Web Development with React Specialization and Building Web Applications in PHP. I started my career as a Web Developer at AppInSource, where I gained hands-on experience in developing Fintech applications and contributed to the development of major projects based on the PHP (Laravel) framework with Oracle as a backend. Currently, I work as a Full-stack Developer at Hudle in New Delhi, where I continue to enhance my skills and contribute to the development of innovative web applications.</p>
+
+          <p>In addition to my professional experience, I have also worked on several personal projects, including an interactive web application developed using the MERN stack that assists users in building resumes and a book subscription web application designed using Angular.</p>
+
+          <p>Although I have only worked on one freelance project, I received positive feedback from my client, who commended my dedication to completing the work as soon as possible and my willingness to research and overcome any challenges that arose.</p>
+
+          <p>Outside of work, I volunteered as a Sports Coordinator for ITSA.</p>
+
+          <p>Thank you for taking the time to read my profile. If you have any questions or opportunities, feel free to reach out to me at matepranay11@gmail.com.</p>
+
+          <a href="https://drive.google.com/file/d/1nHSdcEobXAC7vwZ1dPs6N0yRUSmCGsbK/view?usp=sharing">  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
 
         </Col>
 

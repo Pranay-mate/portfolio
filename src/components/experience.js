@@ -1,17 +1,20 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+import React from "react";
+import Container from "react-bootstrap/Container";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
-import '../css/experience.css';
+import "../css/experience.css";
 
 function Experience() {
   return (
     <div className="Experience ">
-    <h1>Experience</h1>
-  <Container>
-  <VerticalTimeline>
-  {/* <VerticalTimelineElement
+      <h1>Experience</h1>
+      <Container>
+        <VerticalTimeline>
+          {/* <VerticalTimelineElement
     className="vertical-timeline-element--work"
 
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -42,48 +45,81 @@ function Experience() {
   Used programming capabilities for development of E-commerce website in PHP, LARAVEL, MYSQL, VUE.JS.
   </p>
   </VerticalTimelineElement> */}
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="August 2020 - August 2020"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon=<img
+              fluid
+              src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"
+              alt="loading.."
+            />
+          >
+            <h3 className="vertical-timeline-element-title">
+              Freelance Web Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
+            <p>
+              Created a website that exemplifies my client's beliefs, skills,
+              qualifications and experiences.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="Nov 2020 - Apr 2022"
+            contentStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon=<img
+              fluid
+              src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"
+              alt="loading.."
+            />
+          >
+            <h3 className="vertical-timeline-element-title">Web Developer</h3>
 
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="August 2020 - August 2020"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon=<img  fluid  src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png" alt='loading..' />
-  >
-    <h3 className="vertical-timeline-element-title">Freelance Web Developer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
-    <p>
-  Created a website that exemplifies my client's beliefs, skills, qualifications and experiences.
-    </p>
-  </VerticalTimelineElement>
-    <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="Nov 2020 - Apr 2022"
-    contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
-
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon=<img fluid src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"  alt='loading..' />
-  >
-    <h3 className="vertical-timeline-element-title">Web Developer</h3>
-    
-    <h4 className="vertical-timeline-element-subtitle">
-    AppInSource - ideas to solutions</h4>
-    <p>Worked on Fintech applications. </p><p> Contributed as developer to the 3 major projects which were
-based on PHP(LARAVEL) framework with oracle as a
-backend. </p>
- 
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    icon=<img className='star' src="https://img.icons8.com/android/40/000000/star.png"  alt='loading..' />
-  />
-
-</VerticalTimeline>
-
-
-    </Container>
+            <h4 className="vertical-timeline-element-subtitle">
+              AppInSource - ideas to solutions
+            </h4>
+            <p>Worked on Fintech applications. </p>
+            <p>
+              {" "}
+              Contributed as developer to the 3 major projects which were based
+              on PHP(LARAVEL) framework with oracle as a backend.{" "}
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="September 2020 - Present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon=<img
+              fluid
+              src="https://img.icons8.com/color/48/000000/working-with-a-laptop.png"
+              alt="loading.."
+            />
+          >
+            <h3 className="vertical-timeline-element-title">
+              Full Stack Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">HUDLE</h4>
+            <p>
+         
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+            icon=<img
+              className="star"
+              src="https://img.icons8.com/android/40/000000/star.png"
+              alt="loading.."
+            />
+          />
+        </VerticalTimeline>
+      </Container>
     </div>
   );
 }
