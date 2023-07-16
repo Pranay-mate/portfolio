@@ -1,6 +1,10 @@
 .AboutMe{
   text-align: left;
-  background-color: #f8f9fc;
+  background-color: #252734;
+  color: white;
+
+  /*whichever you want*/
+  /* opacity: 0.7; */
 }
 .mine{
 margin-top: calc(4em + 1vh);
@@ -47,13 +51,14 @@ font-family: 'Crimson Text', serif;
 }
 .AboutText h3 span{
   padding-bottom: 12px;
-  color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
-.AboutText h3{
-  font-size: calc(1em + 1vw);
-font-family: 'Playfair Display', serif;
-padding-bottom:  0.5em;
+.AboutText Title{
+  font-family: Cormorant Garamond,serif;
+  font-size: 6em;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1;
 }
 .icons img{
   color: black;

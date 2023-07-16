@@ -1,8 +1,12 @@
 .Certificates h1{
-  font-family: 'Playfair Display', serif;
   padding: 0.5em;
+  font-size: bold;
+  color: white;
+  font-family: 'Playfair Display', serif;
 }
 .Certificates{
+  background-color: #252734;
+
   /* background-color: #f2ebd8; */
   padding-bottom:  2em;
 }

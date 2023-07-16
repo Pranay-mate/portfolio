@@ -1,16 +1,18 @@
-.Experience{
-  background-color: lightslategrey;
-
-}
-.icon{
-  padding-top: 7px;
-}
 .Experience h1{
   padding: 0.5em;
   font-size: bold;
   color: white;
   font-family: 'Playfair Display', serif;
 }
+.Experience{
+  /* background-color: lightslategrey; */
+  background-color: #252734;
+
+}
+.icon{
+  padding-top: 7px;
+}
+
 .Experience h4,h3{
   font-family: 'Bree Serif', serif;
 }

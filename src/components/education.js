@@ -15,8 +15,8 @@ function Education() {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     position='right'
-    contentStyle={{ background: 'rgb(96,96,96)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(96,96,96)' }}
+    contentStyle={{ background: 'rgb(37, 50, 65)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid rgb(37, 50, 65)' }}
     date="2017 - 2022"
     iconStyle={{ background: 'rgb(96,96,96)', color: '#fff' }}
     icon=<img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/student-center.png" alt='loading..' />

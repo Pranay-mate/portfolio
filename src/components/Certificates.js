@@ -31,7 +31,7 @@ class Certi extends React.Component {
 
 
   return (
-    <div className="Certificates  section-full">
+    <div className="Certificates section-full">
     <h1>Certificates</h1>
     <Container >
     <CardDeck>

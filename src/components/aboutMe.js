@@ -34,13 +34,13 @@ function AboutMe() {
 
               <Row xs={12} className="icons justify-content-sm-center" >
                 <Col xs={4}  className="icon">
-                      <a href="https://www.instagram.com/pranay_mate?r=nametag"><img src="https://img.icons8.com/metro/20/000000/instagram-new.png" alt='loading..' /></a>
+                      <a href="https://www.instagram.com/pranay_mate?r=nametag"><img src="https://img.icons8.com/metro/20/FFFFFF/instagram-new.png" alt='loading..' /></a>
                 </Col>
                 <Col xs={4}   className="icon">
-                      <a href="https://www.linkedin.com/in/pranay-mate-arvind"><img src="https://img.icons8.com/windows/25/000000/linkedin-2.png" alt='loading..' /></a>
+                      <a href="https://www.linkedin.com/in/pranay-mate-arvind"><img src="https://img.icons8.com/windows/25/FFFFFF/linkedin-2.png" alt='loading..' /></a>
                 </Col>
                 <Col xs={4} sm={12} className="icon">
-                      <a href="mailto:matepranay11@gmail.com"><img src="https://img.icons8.com/android/20/000000/gmail-login.png" alt='loading..' /></a>
+                      <a href="mailto:matepranay11@gmail.com"><img src="https://img.icons8.com/android/20/FFFFFF/gmail-login.png" alt='loading..' /></a>
                 </Col>
 
               </Row>
@@ -63,7 +63,7 @@ function AboutMe() {
       </Col>
         <Col xs={12} lg={8} className='AboutText' >
           <h5>About me</h5>
-          <h3><span>Full Stack developer</span> </h3>
+          <h3 className='Title'><span>Full Stack developer</span> </h3>
 
           <p>I am a Full Stack Developer with over 2 years of experience, passionate about creating intuitive and user-friendly web applications. My expertise lies in front-end web development, back-end development, and database management. I am proficient in a variety of programming languages and frameworks, including HTML, CSS, Bootstrap, JavaScript, ReactJS, NodeJS, ExpressJS, MySql, PHP, and Laravel.</p>
 

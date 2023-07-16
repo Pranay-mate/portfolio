@@ -10,7 +10,7 @@ import "../css/experience.css";
 
 function Experience() {
   return (
-    <div className="Experience ">
+    <div className="Experience">
       <h1>Experience</h1>
       <Container>
         <VerticalTimeline>
