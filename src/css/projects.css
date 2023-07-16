@@ -1,5 +1,7 @@
 .Projects{
-  background-color: #e1e4e8;
+  background-color: #252734;
+  margin: 5px 0px;
+  padding: 5px 0px;
 }
 .iconp{
   height: calc(2em + 1vw);
@@ -7,6 +9,7 @@
 }
 .Projects h1{
   padding: 0.5em;
+  color: white;
   font-size: bold;
   font-family: 'Playfair Display', serif;
 }

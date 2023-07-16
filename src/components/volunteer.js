@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import '../css/aboutMe.css';
+import '../css/Volunteer.css';
 
 function Volunteer() {
   return (

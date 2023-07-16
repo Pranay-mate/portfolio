@@ -1,7 +1,11 @@
 .Interests{
   padding: 25px;
   padding-top: calc(1em + 1vh);
-  background-color: #e1e4e8;
+  background-color: #252734;
+  color: white;
+  /* background-color: #000533; */
+
+  /* background-color: #e1e4e8; */
 }
 .interests{
 

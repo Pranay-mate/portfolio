@@ -1,16 +1,19 @@
 .SoftSkills h1{
   font-weight: bold;
   padding-top: 40px;
-  padding-bottom: 0px;
-font-family: 'Playfair Display', serif;
+  padding-bottom: 10px;
+  font-family: 'Playfair Display', serif;
 }
 .SoftSkills-bar{
   padding-top: 30px;
 }
 .SoftSkills{
-    color: white!important;
-  background-color: #3b4345;
-  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  color: white!important;
+  background-color: #000533;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"); */
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .SoftSkills p{

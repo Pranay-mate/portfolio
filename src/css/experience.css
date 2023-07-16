@@ -7,7 +7,8 @@
 .Experience{
   /* background-color: lightslategrey; */
   background-color: #252734;
-
+  margin: 5px 0px;
+  padding: 5px 0px;
 }
 .icon{
   padding-top: 7px;
