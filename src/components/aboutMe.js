@@ -77,7 +77,9 @@ function AboutMe() {
 
           <p>Thank you for taking the time to read my profile. If you have any questions or opportunities, feel free to reach out to me at matepranay11@gmail.com.</p>
 
-          <a href="https://drive.google.com/file/d/1nHSdcEobXAC7vwZ1dPs6N0yRUSmCGsbK/view?usp=sharing">  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
+          <a 
+          href="https://drive.google.com/file/d/1Wp0zBorPHgSDANHYoYpw-Lmil8pIvDXH/view?usp=sharing"
+          >  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
 
         </Col>
 
