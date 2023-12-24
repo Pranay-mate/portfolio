@@ -21,7 +21,7 @@ function Education() {
     iconStyle={{ background: 'rgb(96,96,96)', color: '#fff' }}
     icon=<img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/student-center.png" alt='loading..' />
   >
-    <h5 className="vertical-timeline-element-title">Bachelor of Engineering (BE) Information Technology</h5>
+    <h5 className="vertical-timeline-element-title">Bachelor of Engineering (BE) Information Technology (7.57 CGPA)</h5>
     <h4 className="vertical-timeline-element-subtitle">Mumbai University</h4>
     <p>
       Konkan Gyanpeeth College of Engineering

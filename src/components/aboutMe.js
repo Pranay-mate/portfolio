@@ -1,12 +1,11 @@
 import React from 'react';
-import mine from '../images/mine.jpg';
+import mine from '../images/mine_img.jpeg';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from "react-scroll";
 import Typist from 'react-typist';
-
 
 import '../css/aboutMe.css';
 const a= '<';
@@ -18,7 +17,7 @@ function AboutMe() {
   <Container fluid>
       <Row>
       <Col xs={12} lg={4} className='text-center'>
-        <Image className='mine img-fluid img-thumbnail' src={mine} roundedCircle width={300} height={300} alt='loading..' />
+        <Image className='mine img-fluid img-thumbnail' src={mine} roundedCircle width={250} height={250} alt='loading..' />
         <Container className='heading_text'>
         <Row >
         <Col xs={12} className='heading'>
@@ -63,8 +62,8 @@ function AboutMe() {
       </Col>
         <Col xs={12} lg={8} className='AboutText' >
           <h5>About me</h5>
-          <h3 className='Title'><span>Full Stack developer</span> </h3>
-
+          <h3 className='Title'><span>Full Stack Developer At Hudle</span> </h3>
+{/* 
           <p>I am a Full Stack Developer with over 2 years of experience, passionate about creating intuitive and user-friendly web applications. My expertise lies in front-end web development, back-end development, and database management. I am proficient in a variety of programming languages and frameworks, including HTML, CSS, Bootstrap, JavaScript, ReactJS, NodeJS, ExpressJS, MySql, PHP, and Laravel.</p>
 
           <p>I hold a Bachelor's degree in Information Technology from Mumbai University and have completed various courses, including Full-Stack Web Development with React Specialization and Building Web Applications in PHP. I started my career as a Web Developer at AppInSource, where I gained hands-on experience in developing Fintech applications and contributed to the development of major projects based on the PHP (Laravel) framework with Oracle as a backend. Currently, I work as a Full-stack Developer at Hudle in New Delhi, where I continue to enhance my skills and contribute to the development of innovative web applications.</p>
@@ -75,10 +74,13 @@ function AboutMe() {
 
           <p>Outside of work, I volunteered as a Sports Coordinator for ITSA.</p>
 
-          <p>Thank you for taking the time to read my profile. If you have any questions or opportunities, feel free to reach out to me at matepranay11@gmail.com.</p>
+          <p>Thank you for taking the time to read my profile. If you have any questions or opportunities, feel free to reach out to me at matepranay11@gmail.com.</p> */}
 
-          <a 
-          href="https://drive.google.com/file/d/1Wp0zBorPHgSDANHYoYpw-Lmil8pIvDXH/view?usp=sharing"
+          <p>Full Stack Developer with a solid background of 2.5+ years, demonstrating proficiency in fintech web development.</p>
+          <p>Proven leadership skills showcased through impactful mentoring.</p>
+          <p>Currently amplifying skills in both web and app development at Hudle, an innovative sports tech organization.</p>
+
+          <a href="https://drive.google.com/file/d/1SKijywhUb2FPOff9qOMcqB1oiIo3HZ2b/view?usp=sharing"
           >  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
 
         </Col>
