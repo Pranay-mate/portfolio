@@ -16,7 +16,6 @@ function Home() {
   return (
     <div className="Home section-top">
 
-
       <div class="carousel-inner">
           <div class="item active">
             <Image src={homeImage} alt="Chania" fluid />

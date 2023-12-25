@@ -30,7 +30,6 @@ function AboutMe() {
           </Typist>
         </Col>
         </Row>
-
               <Row xs={12} className="icons justify-content-sm-center" >
                 <Col xs={4}  className="icon">
                       <a href="https://www.instagram.com/pranay_mate?r=nametag"><img src="https://img.icons8.com/metro/20/FFFFFF/instagram-new.png" alt='loading..' /></a>
@@ -81,7 +80,8 @@ function AboutMe() {
           <p>Currently amplifying skills in both web and app development at Hudle, an innovative sports tech organization.</p>
 
           <a href="https://drive.google.com/file/d/1SKijywhUb2FPOff9qOMcqB1oiIo3HZ2b/view?usp=sharing"
-          >  <button type="button" class="resume ml-1 mt-2 btn-lg btn btn-dark">Resume</button></a>
+          >  <button type="button" class="resume ml-1 mt-2 btn btn-dark">RESUME  
+          <span> </span><img src="https://img.icons8.com/fluent/24/FFFFFF/download.png" alt='loading..' /></button></a>
 
         </Col>
 
