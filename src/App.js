@@ -14,7 +14,7 @@ import Volunteer from './components/volunteer';
 import Navbar from './components/navbar';
 import Certi from './components/Certificates';
 import ReactGA from 'react-ga';
-
+import Chart from "./components/chart";
 
 function App() {
 
@@ -30,7 +30,6 @@ function App() {
     <SoftSkills />
     <Volunteer />
     <Interests />
-
 
     </div>
   );

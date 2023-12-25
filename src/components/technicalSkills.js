@@ -4,31 +4,31 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SkillBar from 'react-skillbars';
 
+import Chart from "./chart";
 
 import '../css/technicalSkills.css';
 
 
 
 function TechnicalSkills() {
+  let chartData = null;
+
   const skills = [
-    {type: "HTML", level: 100},
-    {type: "CSS", level: 100},
     {type: "Bootstrap", level: 100},
     {type: "JQuery", level: 75},
-    {type: "JSON", level: 100},
     {type: "Javascript", level: 75},
-    {type: "PHP", level: 75},
     {type: "MySql", level: 75},
     {type: "ReactJs", level: 90},
+    {type: "VueJs", level: 100},
+    {type: "NextJs", level: 75},
   ];
   const skillsB = [
+    {type: "PHP", level: 75},
     {type: "NodeJs", level: 75},
-    {type: "ExpressJs", level: 75},
+    {type: "NestJs", level: 75},
     {type: "MongoDB", level: 75},
     {type: "Mongoose", level: 75},
     {type: "Laravel", level: 75},
-    {type: "AngularJs", level: 50},
-    {type: "Wordpress", level: 75},
     {type: "GitHub", level: 100},
 
   ];
@@ -44,7 +44,19 @@ const headline = '<Technical Skills/>';
     <div className="TechnicalSkills section-full">
 
   <Container>
+
       <Row>
+        <Col xs={12}>
+        <h2>{headline}</h2>
+
+        </Col>
+
+        <Col xs={12} className='' >
+         <Chart chartData={chartData}  lavel="HTML" LegendPosition="bottom" />
+        </Col>
+
+      </Row>
+      {/* <Row>
         <Col xs={12}>
         <h2>{headline}</h2>
 
@@ -58,7 +70,7 @@ const headline = '<Technical Skills/>';
         </Col>
 
 
-      </Row>
+      </Row> */}
     </Container>
     </div>
   );
