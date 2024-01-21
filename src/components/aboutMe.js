@@ -85,7 +85,7 @@ function AboutMe() {
           <span> </span><img src="https://img.icons8.com/fluent/18/FFFFFF/download.png" alt='loading..' /></Button></a>
 
           <a href="https://leetcode.com/PranayMate/">
-            <Button className='ml-2 resume' variant="outline-light">Leetcode <span style={{color: 'green'}}>200+</span></Button>
+            <Button className='ml-2 resume' variant="outline-light">Leetcode <span style={{color: 'lightgreen'}}>200+</span></Button>
           </a>
         </Col>
 
