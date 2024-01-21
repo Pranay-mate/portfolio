@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from "react-scroll";
 import Typist from 'react-typist';
+import Button from 'react-bootstrap/Button';
 
 import '../css/aboutMe.css';
 const a= '<';
@@ -80,9 +81,12 @@ function AboutMe() {
           <p>Currently amplifying skills in both web and app development at Hudle, an innovative sports tech organization.</p>
 
           <a href="https://drive.google.com/file/d/1SKijywhUb2FPOff9qOMcqB1oiIo3HZ2b/view?usp=sharing"
-          >  <button type="button" class="resume ml-1 mt-2 btn btn-dark">RESUME  
-          <span> </span><img src="https://img.icons8.com/fluent/24/FFFFFF/download.png" alt='loading..' /></button></a>
+          >  <Button class="resume ml-2 mt-2" variant="outline-light">Resume  
+          <span> </span><img src="https://img.icons8.com/fluent/18/FFFFFF/download.png" alt='loading..' /></Button></a>
 
+          <a href="https://leetcode.com/PranayMate/">
+            <Button className='ml-2 resume' variant="outline-light">Leetcode <span style={{color: 'green'}}>200+</span></Button>
+          </a>
         </Col>
 
 

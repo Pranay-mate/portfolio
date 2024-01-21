@@ -13,6 +13,7 @@ import Interests from './components/interests';
 import Volunteer from './components/volunteer';
 import Navbar from './components/navbar';
 import Certi from './components/Certificates';
+import Leetcode from "./components/leetcode";
 import ReactGA from 'react-ga';
 import Chart from "./components/chart";
 
