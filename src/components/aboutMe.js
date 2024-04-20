@@ -76,7 +76,7 @@ function AboutMe() {
 
           <p>Thank you for taking the time to read my profile. If you have any questions or opportunities, feel free to reach out to me at matepranay11@gmail.com.</p> */}
 
-          <p>Full Stack Developer with a solid background of 2.5+ years, demonstrating proficiency in fintech web development.</p>
+          <p>Full Stack Developer with a solid background of 3 years, demonstrating proficiency in fintech web development.</p>
           <p>Proven leadership skills showcased through impactful mentoring.</p>
           <p>Currently amplifying skills in both web and app development at Hudle, an innovative sports tech organization.</p>
 
@@ -85,7 +85,7 @@ function AboutMe() {
           <span> </span><img src="https://img.icons8.com/fluent/18/FFFFFF/download.png" alt='loading..' /></Button></a>
 
           <a href="https://leetcode.com/PranayMate/">
-            <Button className='ml-2 resume' variant="outline-light">Leetcode <span style={{color: 'lightgreen'}}>300+</span></Button>
+            <Button className='ml-2 resume' variant="outline-light">Leetcode <span style={{color: 'lightgreen'}}>400+</span></Button>
           </a>
         </Col>
 
