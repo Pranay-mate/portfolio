@@ -18,7 +18,7 @@ export function Hero() {
         <div className="max-w-3xl">
           <span className="inline-flex items-center rounded-full border border-border bg-muted/40 px-3 py-1 text-xs font-medium text-muted-foreground">
             <span className="mr-2 inline-flex h-1.5 w-1.5 rounded-full bg-emerald-500" />
-            Open to opportunities · {SITE.location}
+            Open to opportunities
           </span>
 
           <h1 className="mt-6 text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
