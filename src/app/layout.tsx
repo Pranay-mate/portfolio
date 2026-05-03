@@ -50,6 +50,9 @@ export const metadata: Metadata = {
     description: SITE.tagline,
   },
   formatDetection: { email: false, address: false, telephone: false },
+  verification: {
+    google: "ga1q4935lhARuEDp7njIoXyQse7xl5ZnVsoKQ47T4PI",
+  },
 };
 
 export const viewport: Viewport = {
