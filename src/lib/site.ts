@@ -5,10 +5,11 @@
 
 export const SITE = {
   name: "Pranay Mate",
-  role: "Full Stack Developer",
-  tagline: "Full Stack Developer building thoughtful fintech and sports-tech products.",
+  role: "Senior Full Stack Developer",
+  tagline:
+    "Senior Full Stack Developer building thoughtful fintech and sports-tech products.",
   bio: [
-    "Full Stack Developer with 3+ years building production fintech and sports-tech applications. Currently shipping at Hudle.",
+    "Senior Full Stack Developer with 5+ years building production fintech and sports-tech applications. Currently shipping at Hudle.",
     "I care about clean code, accurate math, and interfaces that don't fight the user. Most of my work lives at the intersection of TypeScript, Node, and modern React.",
   ],
   location: "Mumbai, India",

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { SITE } from "@/lib/site";
+import { withBasePath } from "@/lib/asset-path";
 
 export function About() {
   return (
@@ -8,7 +9,7 @@ export function About() {
         <div className="mx-auto lg:mx-0">
           <div className="relative h-[260px] w-[260px] overflow-hidden rounded-2xl border border-border bg-muted shadow-sm">
             <Image
-              src="/img/mine_img.jpeg"
+              src={withBasePath("/img/mine_img.jpeg")}
               alt={`Portrait of ${SITE.name}`}
               fill
               priority
@@ -23,7 +24,7 @@ export function About() {
             About me
           </h2>
           <h3 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-            Building useful software for 3+ years.
+            Building useful software for 5+ years.
           </h3>
 
           <div className="mt-6 space-y-4 text-base text-muted-foreground sm:text-lg">
