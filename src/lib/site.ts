@@ -123,15 +123,17 @@ export const PROJECTS: readonly Project[] = [
 export const SKILLS = {
   Frontend: [
     "TypeScript",
+    "JavaScript",
     "React",
     "Next.js",
     "Vue.js",
     "Tailwind CSS",
-    "JavaScript",
+    "Bootstrap",
+    "jQuery",
   ],
-  Backend: ["Node.js", "NestJS", "PHP", "Laravel", "Express"],
-  Data: ["MySQL", "MongoDB", "Mongoose", "Oracle"],
-  Tools: ["Git", "GitHub", "BitBucket", "Bootstrap", "jQuery"],
+  Backend: ["Node.js", "NestJS", "PHP", "Laravel"],
+  Data: ["MySQL", "MongoDB"],
+  Tools: ["Git", "GitHub", "BitBucket"],
 } as const;
 
 type Certificate = {
