@@ -134,55 +134,81 @@ export const SKILLS = {
   Tools: ["Git", "GitHub", "BitBucket", "Bootstrap", "jQuery"],
 } as const;
 
-export const CERTIFICATES = [
+type Certificate = {
+  name: string;
+  short: string;
+  issuer: string;
+  url: string;
+  /** Brand gradient — Tailwind class names. Looks sharp at any size. */
+  gradient: string;
+};
+
+export const CERTIFICATES: readonly Certificate[] = [
   {
     name: "MERN Stack Specialization",
+    short: "MERN",
     issuer: "Coursera",
-    image: "/img/MERN.jpeg",
     url: "https://www.coursera.org/account/accomplishments/specialization/certificate/6BCDW9XJBV4F",
+    gradient: "from-emerald-500 via-teal-500 to-cyan-500",
   },
   {
     name: "Building Web Applications in PHP",
+    short: "PHP",
     issuer: "Coursera",
-    image: "/img/PHP.png",
     url: "https://www.coursera.org/account/accomplishments/certificate/969A53T9CP65",
+    gradient: "from-indigo-500 via-violet-500 to-purple-500",
   },
   {
     name: "WordPress Web Application Development",
+    short: "WordPress",
     issuer: "Coursera",
-    image: "/img/Wordpress.jpeg",
     url: "https://www.coursera.org/account/accomplishments/certificate/Y7KPJM96RDW3",
+    gradient: "from-sky-500 via-blue-500 to-indigo-500",
   },
   {
     name: "AngularJS",
+    short: "Angular",
     issuer: "Coursera",
-    image: "/img/angular.jpg",
     url: "https://www.coursera.org/account/accomplishments/certificate/AT5JH4BCU5G3",
+    gradient: "from-red-500 via-rose-500 to-pink-500",
   },
-] as const;
+];
 
-export const INTERESTS = [
+type Interest = {
+  title: string;
+  description: string;
+  /** Tailwind gradient classes for the card background. */
+  gradient: string;
+  /** lucide-react icon name (selected from the import map in interests.tsx). */
+  icon: "Code2" | "Dumbbell" | "Mountain" | "Tv";
+};
+
+export const INTERESTS: readonly Interest[] = [
   {
     title: "Code",
     description: "Most days, this is where you'll find me.",
-    image: "/img/code.jpeg",
+    gradient: "from-indigo-500 via-violet-500 to-fuchsia-500",
+    icon: "Code2",
   },
   {
     title: "Fitness",
     description: "When not at the keyboard, I'm at the gym.",
-    image: "/img/fitness.jpeg",
+    gradient: "from-orange-500 via-rose-500 to-red-500",
+    icon: "Dumbbell",
   },
   {
     title: "Trekking",
     description: "Hilltops are the best way to reset.",
-    image: "/img/trek.jpg",
+    gradient: "from-emerald-500 via-teal-500 to-cyan-500",
+    icon: "Mountain",
   },
   {
     title: "Binge-watching",
     description: "Catching up on shows that punch above their weight.",
-    image: "/img/netflix.png",
+    gradient: "from-slate-700 via-slate-800 to-slate-900",
+    icon: "Tv",
   },
-] as const;
+];
 
 export const VOLUNTEER = [
   {

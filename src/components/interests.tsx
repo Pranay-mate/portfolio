@@ -1,6 +1,12 @@
-import Image from "next/image";
+import { Code2, Dumbbell, Mountain, Tv } from "lucide-react";
 import { INTERESTS } from "@/lib/site";
-import { withBasePath } from "@/lib/asset-path";
+
+const ICONS = {
+  Code2,
+  Dumbbell,
+  Mountain,
+  Tv,
+} as const;
 
 export function Interests() {
   return (
@@ -19,31 +25,35 @@ export function Interests() {
         </div>
 
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {INTERESTS.map((interest) => (
-            <li key={interest.title}>
-              <article className="group relative h-64 overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
-                <Image
-                  src={withBasePath(interest.image)}
-                  alt={interest.title}
-                  fill
-                  sizes="(min-width: 1024px) 240px, (min-width: 640px) 50vw, 100vw"
-                  className="object-cover transition duration-500 group-hover:scale-105"
-                />
-                <div
-                  aria-hidden
-                  className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent"
-                />
-                <div className="absolute inset-x-0 bottom-0 p-5 text-white">
-                  <h4 className="text-base font-semibold tracking-tight">
-                    {interest.title}
-                  </h4>
-                  <p className="mt-1 text-xs text-white/80">
-                    {interest.description}
-                  </p>
-                </div>
-              </article>
-            </li>
-          ))}
+          {INTERESTS.map((interest) => {
+            const Icon = ICONS[interest.icon];
+            return (
+              <li key={interest.title}>
+                <article
+                  className={`group relative h-56 overflow-hidden rounded-2xl border border-border bg-gradient-to-br ${interest.gradient} text-white shadow-sm`}
+                >
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.25),transparent_55%)]"
+                  />
+                  <div className="absolute inset-0 flex flex-col justify-between p-5">
+                    <Icon
+                      className="h-7 w-7 opacity-80 transition group-hover:scale-110 group-hover:opacity-100"
+                      aria-hidden
+                    />
+                    <div>
+                      <h4 className="text-lg font-semibold tracking-tight">
+                        {interest.title}
+                      </h4>
+                      <p className="mt-1 text-sm text-white/80">
+                        {interest.description}
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>
