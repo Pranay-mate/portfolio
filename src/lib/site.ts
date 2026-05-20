@@ -87,6 +87,22 @@ export type Project = {
 
 export const PROJECTS: readonly Project[] = [
   {
+    name: "EasySplits",
+    description:
+      "Two-product PWA: Splitwise-style group splitter + personal finance tracker with a 5-pillar Financial Health Scorecard. Offline-first (IndexedDB sync queue, AES-256-GCM at-rest encryption), bank-statement CSV import (HDFC/SBI/ICICI), EMI amortisation projection, multi-currency, push notifications. 315 unit tests, Mumbai-region.",
+    tech: [
+      "Next.js 16",
+      "TypeScript",
+      "tRPC v11",
+      "Drizzle",
+      "Supabase",
+      "Tailwind v4",
+      "PWA",
+    ],
+    url: "https://easy-split-payments.vercel.app",
+    period: "2026",
+  },
+  {
     name: "Rupeeful",
     description:
       "Free financial calculators and long-form guides for Indian investors. 17 calculators (SIP, FIRE, tax-optimal SWP, income tax, etc.) and 11 in-depth articles. Built with Next.js, perfect Lighthouse score.",
@@ -109,14 +125,6 @@ export const PROJECTS: readonly Project[] = [
     tech: ["AngularJS", "HTML", "CSS"],
     url: "https://pranay-mate.github.io/easyBooks/",
     period: "Aug 2020",
-  },
-  {
-    name: "Fitness Freak",
-    description:
-      "Responsive e-commerce site built on WordPress, optimised around real fitness-shopper user journeys.",
-    tech: ["WordPress", "WooCommerce"],
-    url: "https://explore431603904.wordpress.com/",
-    period: "Jul 2020",
   },
 ];
 
@@ -159,13 +167,6 @@ export const CERTIFICATES: readonly Certificate[] = [
     issuer: "Coursera",
     url: "https://www.coursera.org/account/accomplishments/certificate/969A53T9CP65",
     gradient: "from-indigo-500 via-violet-500 to-purple-500",
-  },
-  {
-    name: "WordPress Web Application Development",
-    short: "WordPress",
-    issuer: "Coursera",
-    url: "https://www.coursera.org/account/accomplishments/certificate/Y7KPJM96RDW3",
-    gradient: "from-sky-500 via-blue-500 to-indigo-500",
   },
   {
     name: "AngularJS",
