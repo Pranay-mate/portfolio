@@ -67,8 +67,8 @@ export const EXPERIENCE: readonly ExperienceEntry[] = [
     current: false,
   },
   {
-    role: "Freelance Web Developer",
-    company: "Independent",
+    role: "Web Developer",
+    company: "Freelancer",
     period: "Aug 2020",
     summary:
       "Built a personal portfolio website for a client showcasing their work and credentials.",

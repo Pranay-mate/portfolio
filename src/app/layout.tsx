@@ -56,13 +56,14 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0b1120" },
-  ],
+  themeColor: "#12161f",
   width: "device-width",
   initialScale: 1,
 };
+
+// Runs before paint: applies a saved light-theme choice so there's no flash.
+// Dark is the default (no data-theme attribute needed).
+const themeInit = `(function(){try{if(localStorage.getItem("theme")==="light"){document.documentElement.dataset.theme="light";}}catch(e){}})();`;
 
 export default function RootLayout({
   children,
@@ -72,6 +73,10 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${mono.variable} h-full scroll-smooth antialiased`}
     >
+      <head>
+        {/* eslint-disable-next-line react/no-danger */}
+        <script dangerouslySetInnerHTML={{ __html: themeInit }} />
+      </head>
       <body className="min-h-full bg-background text-foreground">
         {children}
       </body>

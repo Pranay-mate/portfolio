@@ -1,69 +1,108 @@
 import Link from "next/link";
 import { ArrowRight, Mail, FileText } from "lucide-react";
-import { SITE } from "@/lib/site";
+import { SITE, SKILLS, PROJECTS } from "@/lib/site";
+import { CountUp } from "./count-up";
+import { Section } from "./ui";
+
+const techCount = Object.values(SKILLS).flat().length;
+
+const KPIS = [
+  { label: "YRS EXPERIENCE", to: 5, suffix: "+" },
+  { label: "PROJECTS SHIPPED", to: PROJECTS.length, suffix: "" },
+  { label: "LEETCODE SOLVED", to: SITE.leetcodeSolved, suffix: "+" },
+  { label: "TECHNOLOGIES", to: techCount, suffix: "" },
+] as const;
+
+function KpiTile({
+  label,
+  to,
+  suffix,
+}: {
+  label: string;
+  to: number;
+  suffix: string;
+}) {
+  return (
+    <div className="rounded-lg border border-border bg-surface/70 p-4 backdrop-blur-sm transition hover:border-border-strong">
+      <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
+        {label}
+      </div>
+      <div className="mt-2 flex items-baseline gap-1.5">
+        <CountUp
+          to={to}
+          suffix={suffix}
+          className="font-mono text-3xl font-semibold tabular-nums text-foreground sm:text-4xl"
+        />
+        <span className="font-mono text-xs text-up" aria-hidden>
+          ▲
+        </span>
+      </div>
+    </div>
+  );
+}
 
 export function Hero() {
+  const first = SITE.name.split(" ")[0];
+  const last = SITE.name.split(" ").slice(1).join(" ");
+
   return (
-    <section
-      id="top"
-      className="relative overflow-hidden border-b border-border/60"
-    >
-      {/* Soft glow background */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[520px] bg-[radial-gradient(circle_at_top,oklch(0.55_0.22_277_/_0.12),transparent_60%)]"
-      />
+    <section id="top">
+      <Section className="pt-14 sm:pt-16">
+        <p className="font-mono text-sm text-muted-foreground">
+          <span className="text-up">➜</span>{" "}
+          <span className="text-accent">~</span> whoami
+        </p>
 
-      <div className="mx-auto max-w-5xl px-4 py-20 sm:px-6 lg:py-28">
-        <div className="max-w-3xl">
-          <span className="inline-flex items-center rounded-full border border-border bg-muted/40 px-3 py-1 text-xs font-medium text-muted-foreground">
-            <span className="mr-2 inline-flex h-1.5 w-1.5 rounded-full bg-emerald-500" />
-            Open to opportunities
-          </span>
+        <h1 className="mt-5 text-4xl font-semibold tracking-tight sm:text-6xl">
+          {first}{" "}
+          <span className="text-accent caret">{last}</span>
+        </h1>
 
-          <h1 className="mt-6 text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-            Hi, I&apos;m{" "}
-            <span className="text-accent">{SITE.name.split(" ")[0]}</span>.
-          </h1>
+        <p className="mt-4 font-mono text-base text-muted-foreground sm:text-lg">
+          {SITE.role} ·{" "}
+          <span className="text-foreground">fintech</span> &amp;{" "}
+          <span className="text-foreground">sports-tech</span> ·{" "}
+          <span className="text-foreground">{SITE.location}</span>
+        </p>
 
-          <p className="mt-4 text-lg text-muted-foreground sm:text-xl">
-            {SITE.role} building thoughtful{" "}
-            <span className="text-foreground">fintech</span> and{" "}
-            <span className="text-foreground">sports-tech</span> products.
-          </p>
+        <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground">
+          {SITE.bio[0]}{" "}I care about clean code, accurate math, and
+          interfaces that don&apos;t fight the user.
+        </p>
 
-          <p className="mt-6 max-w-2xl text-base text-muted-foreground">
-            {SITE.bio[0]} I care about clean code, accurate math, and
-            interfaces that don&apos;t fight the user.
-          </p>
-
-          <div className="mt-8 flex flex-wrap items-center gap-3">
-            <Link
-              href="#projects"
-              className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-medium text-accent-foreground transition hover:opacity-90"
-            >
-              See my work
-              <ArrowRight className="h-4 w-4" aria-hidden />
-            </Link>
-            <a
-              href={`mailto:${SITE.socials.email}`}
-              className="inline-flex items-center gap-2 rounded-lg border border-border bg-background px-5 py-3 text-sm font-medium hover:bg-muted"
-            >
-              <Mail className="h-4 w-4" aria-hidden />
-              Get in touch
-            </a>
-            <a
-              href={SITE.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-border bg-background px-5 py-3 text-sm font-medium hover:bg-muted"
-            >
-              <FileText className="h-4 w-4" aria-hidden />
-              Résumé
-            </a>
-          </div>
+        <div className="mt-8 flex flex-wrap items-center gap-3">
+          <Link
+            href="#projects"
+            className="inline-flex items-center gap-2 rounded-md bg-accent px-5 py-2.5 font-mono text-sm font-medium text-accent-foreground transition hover:opacity-90"
+          >
+            ./view --projects
+            <ArrowRight className="h-4 w-4" aria-hidden />
+          </Link>
+          <a
+            href={`mailto:${SITE.socials.email}`}
+            className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-5 py-2.5 font-mono text-sm transition hover:border-border-strong hover:text-foreground"
+          >
+            <Mail className="h-4 w-4" aria-hidden />
+            hire()
+          </a>
+          <a
+            href={SITE.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-5 py-2.5 font-mono text-sm transition hover:border-border-strong hover:text-foreground"
+          >
+            <FileText className="h-4 w-4" aria-hidden />
+            resume.pdf
+          </a>
         </div>
-      </div>
+
+        {/* KPI band */}
+        <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {KPIS.map((k) => (
+            <KpiTile key={k.label} label={k.label} to={k.to} suffix={k.suffix} />
+          ))}
+        </div>
+      </Section>
     </section>
   );
 }

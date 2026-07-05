@@ -1,5 +1,6 @@
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { TerminalBackground } from "@/components/terminal-bg";
 import { Hero } from "@/components/hero";
 import { About } from "@/components/about";
 import { Education } from "@/components/education";
@@ -48,6 +49,7 @@ const personJsonLd = {
 export default function Home() {
   return (
     <>
+      <TerminalBackground />
       <SiteHeader />
       <main>
         <Hero />
