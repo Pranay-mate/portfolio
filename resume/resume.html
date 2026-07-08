@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pranay Mate — Resume</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --accent: #1f5fdb;
+    --line: #d9d9d9;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    font-size: 9.6pt;
+    line-height: 1.22;
+    background: #fff;
+  }
+  .page {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 26px 42px 30px;
+  }
+
+  /* ---------- Header ---------- */
+  header { text-align: center; margin-bottom: 6px; }
+  h1 {
+    font-size: 21pt;
+    letter-spacing: 1.5px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .role {
+    font-size: 11pt;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 3px 0 6px;
+    letter-spacing: .4px;
+  }
+  .contact {
+    font-size: 9.2pt;
+    color: var(--muted);
+  }
+  .contact a { color: var(--muted); text-decoration: none; }
+  .contact span { white-space: nowrap; }
+  .sep { color: var(--line); margin: 0 6px; }
+
+  /* ---------- Sections ---------- */
+  section { margin-top: 9px; break-inside: avoid; }
+  h2 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: var(--accent);
+    border-bottom: 1.5px solid var(--accent);
+    padding-bottom: 2px;
+    margin: 0 0 6px;
+  }
+  .summary { margin: 0; color: #333; }
+
+  /* ---------- Experience / entries ---------- */
+  .entry { margin-bottom: 6px; break-inside: avoid; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .entry-title { font-weight: 700; font-size: 10.6pt; }
+  .entry-company { font-weight: 600; color: var(--accent); }
+  .entry-meta { color: var(--muted); font-size: 9pt; white-space: nowrap; }
+  .entry-sub {
+    font-style: italic;
+    color: var(--muted);
+    font-size: 9.4pt;
+    margin: 1px 0 4px;
+  }
+  ul { margin: 3px 0 0; padding-left: 17px; }
+  li { margin: 1px 0; }
+  .proj-sub-list { margin-top: 3px; }
+
+  /* ---------- Skills ---------- */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    row-gap: 2px;
+    column-gap: 10px;
+  }
+  .skills-grid dt { font-weight: 700; }
+  .skills-grid dd { margin: 0; color: #333; }
+
+  /* ---------- Two-column compact lists ---------- */
+  .two-col {
+    columns: 2;
+    column-gap: 32px;
+    margin: 0;
+    padding-left: 17px;
+  }
+  .two-col li { break-inside: avoid; }
+
+  .project .entry-head { align-items: baseline; }
+  .link { color: var(--accent); text-decoration: none; font-size: 9pt; }
+
+  @page { size: A4; margin: 0; }
+  @media print {
+    .page { max-width: none; margin: 0; padding: 8mm 13mm; }
+    a { color: inherit; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>PRANAY MATE</h1>
+    <div class="role">Senior Full Stack Developer</div>
+    <div class="contact">
+      <span>+91 72764 35142</span>
+      <span class="sep">|</span>
+      <span><a href="mailto:matepranay11@gmail.com">matepranay11@gmail.com</a></span>
+      <span class="sep">|</span>
+      <span>Mumbai, India</span>
+      <br />
+      <span><a href="https://www.linkedin.com/in/pranay-mate-arvind">linkedin.com/in/pranay-mate-arvind</a></span>
+      <span class="sep">|</span>
+      <span><a href="https://github.com/Pranay-mate">github.com/Pranay-mate</a></span>
+      <span class="sep">|</span>
+      <span><a href="https://leetcode.com/PranayMate/">leetcode.com/PranayMate</a></span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p class="summary">
+      Senior Full Stack Developer with 5+ years building production fintech and sports-tech
+      applications. Strong across TypeScript, Node.js/NestJS, Vue/React/Next.js and
+      PHP/Laravel, with a focus on payments, accurate financial logic, and interfaces
+      that don't fight the user. Owns features end-to-end and lifts team quality
+      through code review and mentoring.
+    </p>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div><span class="entry-title">Senior Full Stack Developer</span>,
+          <span class="entry-company">Hudle</span> — sports-tech</div>
+        <div class="entry-meta">Sep 2022 – Present · Mumbai</div>
+      </div>
+      <ul>
+        <li>Ship web and mobile features across the stack for a sports-venue booking
+          platform using TypeScript, NestJS, Vue.js, Next.js, Node.js, Laravel and MySQL.</li>
+        <li>Led major projects end-to-end — Google Sheet Automation (replaced a flaky
+          15–20 min export with a ~5 s ClickHouse bulk-insert pipeline and a live admin
+          UI) and slot-wise cancellation &amp; rescheduling (per-slot cancel/reschedule
+          of bookings).</li>
+        <li>Built multi-entity payments and insurance flows with penny-accurate
+          split/refund logic and race-condition-safe database transactions.</li>
+        <li>Designed "lazy slots," a database optimization that generates booking slots
+          on demand instead of pre-materialising them — cutting slot-table growth and
+          query load for faster, more scalable booking flows.</li>
+        <li>Surface architectural loopholes and edge cases in existing systems, then
+          design and ship the fixes; drive code reviews and mentor teammates to raise
+          overall code quality.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div><span class="entry-title">Web Developer</span>,
+          <span class="entry-company">AppInSource — Ideas to Solutions</span></div>
+        <div class="entry-meta">Nov 2020 – Apr 2022</div>
+      </div>
+      <div class="entry-sub">Fintech · PHP, Laravel, Oracle</div>
+      <ul>
+        <li><strong>Internal Banking Web App:</strong> led development of end-to-end
+          account opening supporting multiple account types with layered verifications
+          and validations; mentored colleagues on scalable, efficient implementation.</li>
+        <li><strong>Online Account Opening (consumer-facing):</strong> designed an
+          intuitive flow that issued account IDs in under 2 minutes, coordinating
+          multiple backend validation workflows for a smooth, secure experience.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Personal Projects</h2>
+
+    <div class="entry project">
+      <div class="entry-head">
+        <div><span class="entry-title">EasySplits</span> —
+          <a class="link" href="https://easysplits.in">easysplits.in</a></div>
+        <div class="entry-meta">2026</div>
+      </div>
+      <ul>
+        <li>Two-product PWA: a Splitwise-style group expense splitter plus a personal
+          finance tracker with a 5-pillar Financial Health Scorecard.</li>
+        <li>Offline-first with an IndexedDB sync queue and AES-256-GCM at-rest
+          encryption; bank-statement CSV import (HDFC/SBI/ICICI), EMI amortisation,
+          multi-currency and push notifications. Backed by 315 unit tests.
+          Built with Next.js 16, TypeScript, tRPC v11 and Supabase.</li>
+      </ul>
+    </div>
+
+    <div class="entry project">
+      <div class="entry-head">
+        <div><span class="entry-title">Rupeeful</span> —
+          <a class="link" href="https://rupeeful.vercel.app">rupeeful.vercel.app</a></div>
+        <div class="entry-meta">2026</div>
+      </div>
+      <ul>
+        <li>Free financial calculators and long-form guides for Indian investors:
+          17 calculators (SIP, FIRE, tax-optimal SWP, income tax, and more) and
+          11 in-depth articles.</li>
+        <li>Built with Next.js; ships a perfect Lighthouse score.</li>
+      </ul>
+    </div>
+
+    <div class="entry project">
+      <div class="entry-head">
+        <div><span class="entry-title">AI Resume Builder</span> —
+          <a class="link" href="https://pranay-mate.github.io/Final_year/index.html">demo</a></div>
+        <div class="entry-meta">2021</div>
+      </div>
+      <ul>
+        <li>MERN web app that helps users build a resume and scores it against best
+          practices. Final-year project shipped to production.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <dl class="skills-grid">
+      <dt>Languages</dt><dd>TypeScript, JavaScript, PHP, SQL</dd>
+      <dt>Frontend</dt><dd>React, Next.js, Vue.js, Bootstrap, HTML/CSS</dd>
+      <dt>Backend</dt><dd>Node.js, NestJS, Express, Laravel, tRPC</dd>
+      <dt>Data</dt><dd>MySQL, MongoDB, Supabase, PostgreSQL</dd>
+      <dt>Tools</dt><dd>Git, GitHub, BitBucket, AI-assisted development (Claude Code)</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="entry">
+      <div class="entry-head">
+        <div><span class="entry-title">B.E. in Information Technology</span>,
+          <span class="entry-company">Konkan Gyanpeeth College of Engineering</span></div>
+        <div class="entry-meta">2017 – 2022</div>
+      </div>
+      <div class="entry-sub">Mumbai University · CGPA 7.57</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications &amp; Achievements</h2>
+    <ul class="two-col">
+      <li>MERN Stack Specialization — Coursera</li>
+      <li>Building Web Applications in PHP — Coursera</li>
+      <li>AngularJS — Coursera</li>
+      <li>400+ problems solved on LeetCode</li>
+      <li>Ranked 3rd in final semester, B.E.</li>
+      <li>Sports Coordinator, ITSA (2018–2019)</li>
+    </ul>
+  </section>
+
+</div>
+</body>
+</html>

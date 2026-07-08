@@ -49,7 +49,7 @@ type ExperienceEntry = {
 
 export const EXPERIENCE: readonly ExperienceEntry[] = [
   {
-    role: "Full Stack Developer",
+    role: "Senior Full Stack Developer",
     company: "Hudle",
     period: "Sep 2022 — Present",
     summary:
@@ -94,19 +94,17 @@ export const PROJECTS: readonly Project[] = [
       "Next.js 16",
       "TypeScript",
       "tRPC v11",
-      "Drizzle",
       "Supabase",
-      "Tailwind v4",
       "PWA",
     ],
-    url: "https://easy-split-payments.vercel.app",
+    url: "https://easysplits.in",
     period: "2026",
   },
   {
     name: "Rupeeful",
     description:
       "Free financial calculators and long-form guides for Indian investors. 17 calculators (SIP, FIRE, tax-optimal SWP, income tax, etc.) and 11 in-depth articles. Built with Next.js, perfect Lighthouse score.",
-    tech: ["Next.js", "TypeScript", "Tailwind v4", "Vercel"],
+    tech: ["Next.js", "TypeScript", "Vercel"],
     url: "https://rupeeful.vercel.app",
     period: "2026",
   },
@@ -135,13 +133,12 @@ export const SKILLS = {
     "React",
     "Next.js",
     "Vue.js",
-    "Tailwind CSS",
     "Bootstrap",
     "jQuery",
   ],
   Backend: ["Node.js", "NestJS", "PHP", "Laravel"],
   Data: ["MySQL", "MongoDB"],
-  Tools: ["Git", "GitHub", "BitBucket"],
+  Tools: ["Git", "GitHub", "BitBucket", "AI-assisted development (Claude Code)"],
 } as const;
 
 type Certificate = {
