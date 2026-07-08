@@ -13,8 +13,8 @@ export const SITE = {
     "I care about clean code, accurate math, and interfaces that don't fight the user. Most of my work lives at the intersection of TypeScript, Node, and modern React.",
   ],
   location: "Mumbai, India",
-  resumeUrl:
-    "https://drive.google.com/file/d/1SKijywhUb2FPOff9qOMcqB1oiIo3HZ2b/view?usp=sharing",
+  // Served from public/ and deployed with the site (wrap with withBasePath at use).
+  resumeUrl: "/Pranay_Mate_Resume.pdf",
   socials: {
     email: "matepranay11@gmail.com",
     github: "https://github.com/Pranay-mate",

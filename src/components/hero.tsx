@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Mail, FileText } from "lucide-react";
 import { SITE, SKILLS, PROJECTS } from "@/lib/site";
+import { withBasePath } from "@/lib/asset-path";
 import { CountUp } from "./count-up";
 import { Section } from "./ui";
 
@@ -86,7 +87,7 @@ export function Hero() {
             hire()
           </a>
           <a
-            href={SITE.resumeUrl}
+            href={withBasePath(SITE.resumeUrl)}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-5 py-2.5 font-mono text-sm transition hover:border-border-strong hover:text-foreground"
