@@ -92,7 +92,12 @@
     column-gap: 10px;
   }
   .skills-grid dt { font-weight: 700; }
+  .skills-grid dt::after { content: ":"; }
   .skills-grid dd { margin: 0; color: #333; }
+
+  /* Single-column labeled lines (ATS-safe: no multi-column) */
+  .line { margin: 0 0 3px; color: #333; }
+  .line:last-child { margin-bottom: 0; }
 
   /* ---------- Two-column compact lists ---------- */
   .two-col {
@@ -261,14 +266,10 @@
 
   <section>
     <h2>Certifications &amp; Achievements</h2>
-    <ul class="two-col">
-      <li>MERN Stack Specialization — Coursera</li>
-      <li>Building Web Applications in PHP — Coursera</li>
-      <li>AngularJS — Coursera</li>
-      <li>400+ problems solved on LeetCode</li>
-      <li>Ranked 3rd in final semester, B.E.</li>
-      <li>Sports Coordinator, ITSA (2018–2019)</li>
-    </ul>
+    <p class="line"><strong>Certifications:</strong> MERN Stack Specialization,
+      Building Web Applications in PHP, AngularJS — all Coursera</p>
+    <p class="line"><strong>Achievements:</strong> 400+ LeetCode problems solved;
+      ranked 3rd in final B.E. semester; Sports Coordinator, ITSA (2018–2019)</p>
   </section>
 
 </div>
